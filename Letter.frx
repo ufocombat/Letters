@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/22/2019 11:03:23" ReportInfo.Modified="05/23/2019 16:57:45" ReportInfo.CreatorVersion="2019.1.15.0">
+  <Styles>
+    <Style Name="Text" Font="Arial, 10pt"/>
+  </Styles>
+  <Dictionary>
+    <XmlDataConnection Name="Connection" ConnectionString="rijcmlqmmfdjkQxfe1iwShBNGpud9skXtuacS7eWXAtRFr//zFHdT8Z/o/HovyXNccesnIGHthaNCAQsEyU78hwKi0wZ48UKlV4pe4/XnuxRfrDc60=">
+      <TableDataSource Name="Letters" DataType="System.Int32" Enabled="true" TableName="Letters">
+        <Column Name="Date" DataType="System.String"/>
+        <Column Name="CompanyName" DataType="System.String"/>
+        <Column Name="Name" DataType="System.String"/>
+        <Column Name="Address" DataType="System.String"/>
+        <Column Name="City" DataType="System.String"/>
+        <Column Name="Phone" DataType="System.String"/>
+      </TableDataSource>
+    </XmlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <DataBand Name="Data1" Width="718.2" Height="878.85" DataSource="Letters">
+      <TextObject Name="Text1" Left="37.8" Top="359.1" Width="633.15" Height="481.95" Text="   I am writing you concerning a recent purchase of promotional items. Approximately two weeks ago, on May 1, I ordered a total of 500 promotional items for Company, Inc. via the Promotional items webpage. I received an email notification within three hours confirming the receipt of payment via credit card and the prompt shipment of promotional items. Your website indicated, shipments should reach their destination within 3-5 business days of being sent, but I am eagerly awaiting to receive the promotional items. Do you have any information on what may have happened with shipment or where the shipment is located?&#13;&#10;&#13;&#10;   I have worked with &lt;span style=&quot;color:red&quot;&gt;[Letters.CompanyName]&lt;/span&gt; before and have confidence in your product lines and excellent customer service. The shipment of promotional items must arrive soon, and I hoped you might be able to provide me with an idea of when I can receive them in our office. Thank you in advance for assistance you may provide regarding the purchase." Font="Arial, 14.25pt" LineHeight="28" TextRenderType="HtmlParagraph"/>
+      <TextObject Name="Text12" Left="37.8" Top="321.3" Width="340.2" Height="18.9" Text="   Dear &lt;span style=&quot;color:red&quot;&gt;[Letters.Name]&lt;/span&gt;" Font="Arial, 14pt" TextRenderType="HtmlParagraph"/>
+      <TextObject Name="Text13" Left="37.8" Top="737.1" Width="340.2" Height="18.9" Text="Sincerely," Font="Arial, 14pt"/>
+      <TextObject Name="Text14" Left="37.8" Top="774.9" Width="340.2" Height="18.9" Text="Justin Bieber" Font="Arial, 14pt"/>
+      <TextObject Name="Text15" Left="37.8" Top="803.25" Width="340.2" Height="18.9" Text="(947) 278-5929" Font="Arial, 14pt"/>
+      <TextObject Name="Text16" Left="37.8" Top="831.6" Width="340.2" Height="28.35" Text="j.bieber@gmail.com" Font="Arial, 14pt"/>
+      <TextObject Name="Text7" Left="37.8" Top="179.55" Width="340.2" Height="18.9" Text="&lt;span style=&quot;color:red&quot;&gt;[Letters.Name]&lt;/span&gt;" Font="Arial, 14pt" TextRenderType="HtmlParagraph"/>
+      <TextObject Name="Text9" Left="37.8" Top="207.9" Width="340.2" Height="18.9" Text="[Letters.CompanyName]" Font="Arial, 14pt" TextFill.Color="Red"/>
+      <TextObject Name="Text10" Left="37.8" Top="236.25" Width="340.2" Height="18.9" Text="[Letters.Address]" Font="Arial, 14pt" TextFill.Color="Red"/>
+      <TextObject Name="Text11" Left="37.8" Top="264.6" Width="340.2" Height="18.9" Text="[Letters.City]" Font="Arial, 14pt" TextFill.Color="Red"/>
+      <TextObject Name="Text5" Left="37.8" Top="113.4" Width="340.2" Height="18.9" Text="Corona New Mexico, 08219" Font="Arial, 14pt" TextFill.Color="RoyalBlue"/>
+      <TextObject Name="Text4" Left="37.8" Top="85.05" Width="340.2" Height="18.9" Text="Forrest street" Font="Arial, 14pt" TextFill.Color="RoyalBlue"/>
+      <TextObject Name="Text3" Left="37.8" Top="56.7" Width="340.2" Height="18.9" Text="Nyssan corp." Font="Arial, 14pt" TextFill.Color="RoyalBlue"/>
+      <TextObject Name="Text6" Left="500.85" Top="18.9" Width="198.45" Height="28.35" Text="[Letters.Date]" Font="Arial, 14pt" TextFill.Color="Red"/>
+      <PictureObject Name="Picture1" Left="396.9" Top="746.55" Width="160.65" Height="103.95" ImageLocation="C:\Users\ufocombat\Desktop\bf8b893c0c6a35c660b99f5988f740fe.jpg"/>
+    </DataBand>
+  </ReportPage>
+</Report>

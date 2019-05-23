@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NWindDataSet>
+  <xs:schema id="LettersDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="LettersDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Letters">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Date" type="xs:string" minOccurs="0" />
+                <xs:element name="CompanyName" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Address" type="xs:string" minOccurs="0" />
+                <xs:element name="City" type="xs:string" minOccurs="0" />
+                <xs:element name="Phone" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Letters>
+    <Date>Friday, 23/05/2019</Date>
+    <CompanyName>Qualcomm</CompanyName>
+    <Name>Lucas</Name>
+    <Address>711-2880 Nulla St.</Address>
+    <City>Mankato Mississippi 96522</City>
+    <Phone>(257) 563-7401</Phone>
+  </Letters>
+  <Letters>
+    <Date>Saturday, 24/05/2019</Date>
+    <CompanyName>Dictum</CompanyName>
+    <Name>Theodore Lowe</Name>
+    <Address>P.O. Box 283 8562 Fusce Rd.</Address>
+    <City>Frederick Nebraska 20620</City>
+    <Phone>(372) 587-2335</Phone>
+  </Letters>
+  <Letters>
+    <Date>Saturday, 24/05/2019</Date>
+    <CompanyName>Dictum</CompanyName>
+    <Name>Calista Wise</Name>
+    <Address>7292 Dictum Av.</Address>
+    <City>Tamuning PA 10855</City>
+    <Phone>(654) 393-5734</Phone>
+  </Letters> 
+</NWindDataSet>
